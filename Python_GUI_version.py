@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Haonan Yang an Incomplete GUI for Digital Cash Project,
+Haonan Yang an GUI for Digital Cash Project,
 uses pyQt4 QPageWizard as basis for the project GUI.
 """
 a = [[[0 for x in range(8)] for x in range(10)] for x in range(10)]
