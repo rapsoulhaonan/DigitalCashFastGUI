@@ -3,6 +3,7 @@
 Haonan Yang an GUI for Digital Cash Project,
 uses pyQt4 QPageWizard as basis for the project GUI.
 """
+"""
 a = [[[0 for x in range(8)] for x in range(10)] for x in range(10)]
 Amount = 250#money: we assume it is 250
 AmountB = [0,0,0,0,0,0,0,0]#Money transferred to array
@@ -14,6 +15,7 @@ BC = a#Bit Commitment
 strAmount,strAmountB,strUniqueID,strIdentityString,strISL,
 strISR,strBC,strBS1,strBS2,strBS,strUID,strBS3,strM,strk,strn,strd,
 strt,strsign, strs,strISFB = QString.__init__ (self,"")
+"""
 
 import random
 from PyQt4 import QtGui
