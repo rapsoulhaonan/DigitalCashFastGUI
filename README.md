@@ -19,6 +19,8 @@ Basically this project was divided by the three parties(Customer, Merchant, Bank
 
 ## Steps
 
+<dl>
+<dd>
 1.	We (Alice) generate 10 money orders, 
 
 A.	Each one has an amount=100;
@@ -58,3 +60,6 @@ s = td/k mod n
 4.	Merchant double checked the bank signature, and give Alice a 10-bit random binary string, Alice reveal the identity string based on the 10-bit random binary string( we assume that when 0, Alice reveal left part).
 
 5.	For Bank, random choice of 1 out of N money orders sent by the customer to remain unopened. An algorithm that certifies that all the N-1 money orders have been filled with valid information. A procedure to certify that the orders received from merchants have not been used previously and storage of the uniqueness string and identity strings of the orders in a database file. Appropriate measures against reuse of the ecash. Finished the deal, and the merchant took the money order and the revealed identity string to the bank. Since we are not going to make this program to complex – Alice use the money order twice, we always assume that no one cheat.
+
+</dl>
+</dd>
