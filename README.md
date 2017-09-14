@@ -1,5 +1,7 @@
 # DigitalCashFastGUI
 
+[![GitHub release](https://img.shields.io/badge/DigtalCash-v1.0-green.svg)](https://github.com/rapsoulhaonan/digital-cash-fast-GUI/releases)
+
 ## Problem
 
 To implement a protocol for the use of digital cash using various protocols for maintaining secrecy, anonymity, authenticity, integrity, and mutual trust.
