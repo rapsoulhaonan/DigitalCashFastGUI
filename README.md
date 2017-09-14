@@ -45,6 +45,12 @@ t = Mk^e mod n
 
 H.	After all the processes above, the money orders have been completed.
 
+</dl>
+</dd>
+
+<dl>
+<dd>
+
 2.	Alice took those money orders to the bank, we assume bank ask Alice to unblind randomly like the following order:
 Unblinding process:
 Alice unblinds td by calculating
