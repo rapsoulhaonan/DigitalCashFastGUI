@@ -39,17 +39,17 @@ M=Amount XOR uniqueness string XOR H(M) XOR R1;
       Blinding process:
       Alice chooses random k, 1 < k < n
       Alice blinds M by calculating
-t = Mke mod n
+t = Mk^e mod n
 
 H.	After all the processes above, the money orders have been completed.
 
 2.	Alice took those money orders to the bank, we assume bank ask Alice to unblind randomly like the following order:
 Unblinding process:
 Alice unblinds td by calculating
-	s = td/k mod n
+	s = t^d/k mod n
 is the s here is just like the one above, than the bank agree to sign.
 Bank signs t by calculating
-		td = (Mke)d mod n
+		td = (Mk^e)d mod n
 
 3.	Alice took the remaining money order to the merchant, and unblind to the merchant.
 Alice unblinds td by calculating
